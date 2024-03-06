@@ -175,8 +175,8 @@ function MuiButton() {
           onChange={handleChange}
           aria-label="Platform"
           // exclusive
-          size="small"
-          orientation="vertical"
+          size="large"
+          orientation="horizontal"
         >
           <ToggleButton value="web">Web</ToggleButton>
           <ToggleButton value="android">Android</ToggleButton>
